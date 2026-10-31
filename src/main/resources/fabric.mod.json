@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "customgui",
+  "version": "${version}",
+  "name": "Custom GUI",
+  "description": "Fügt den Client-Befehl /gui hinzu, der ein Custom GUI mit Hover-Animationen öffnet.",
+  "authors": ["Luis"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.customgui.CustomGuiMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.1",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
